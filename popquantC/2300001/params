@@ -1,0 +1,10 @@
+0.99	0.01					//A2	B2
+3.0	1.0	0.5				//zbar	o2	h2
+0.0	0.01					//cf	cm
+0.01	0.1 	0.1	0.0			//dsm	df	dm	alpha
+0.5	0.5					//recombination
+0.09	0.0007	0.3				//a	b	v
+50000 5000					//numgen	printgen
+0.1	4.0					//RANGE1	RANGE2 cf,alpha
+10	10					//INC1	INC2
+2300001 // from set II: Voff={-1,-2,-3,0&A2=0&pert}, h2={0.5,1}, d={0.1,0.15}, cm={0.01,0.05}, a={0.09,1}, b={0.00007,0.0007}
