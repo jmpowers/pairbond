@@ -1,0 +1,6 @@
+#!/bin/sh
+#$ -N new_258_525
+#$ -q free64
+# Tell the SGE that this is an array job, with "tasks" to be numbered
+#$ -t 258-525
+./popquantselnewtab $SGE_TASK_ID

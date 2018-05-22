@@ -1,0 +1,12 @@
+0.99	0.01					//A2	B2
+3.0	1.0	0.5				//zbar	o2	h2
+0.07	0.01					//cf	cm
+0.0	0.1 	0.1	2.3			//dsm	df	dm	alpha
+0.5	0.5					//recombination
+0.09	0.00007	0.3				//a	b	v
+100000 5000					//numgen	printgen
+10	10					//RANGE1	RANGE2 dA2, dsm
+5	5					//INC1	INC2
+9					//run
+1	0.001	500				//pert	pertamt	pertgen
+0.0	0.0	0.0				//optdev	dA2	sfert
