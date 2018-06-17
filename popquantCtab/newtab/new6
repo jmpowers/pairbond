@@ -1,7 +1,0 @@
-#!/bin/sh
-#$ -N hires_137-253
-#$ -q free64
-#$ -ckpt blcr
-# Tell the SGE that this is an array job, with "tasks" to be numbered
-#$ -t 137-253
-./popquantselnewtab $SGE_TASK_ID
